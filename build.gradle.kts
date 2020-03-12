@@ -31,6 +31,7 @@ pluginBundle {
     website = "https://github.com/Spikot/MangroveGradle"
     vcsUrl = "https://github.com/Spikot/MangroveGradle"
     description = "Gradle plugin for Mangrove"
+    tags = listOf("dependency","bukkit")
     plugins {
         create("Mangrove") {
             id = "kr.heartpattern.spikot.mangrove"
